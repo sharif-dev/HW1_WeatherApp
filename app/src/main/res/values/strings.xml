@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="edit_message">Search...</string>
+    <string name="button_send">Send</string>
+    <string name="mapbox_token">pk.eyJ1IjoiYWJkb2xsYWhpIiwiYSI6ImNrOGEyMnFhZTBieHQzZnFsM2JqdzN2cGwifQ.mtSbgUSvW3x3xIg-GRNGkA</string>
+    <string name="weather_api_token">4327bcfb0eb64602a0182818200704</string>
+    <string name="mapbox_format_string_query">https://api.mapbox.com/geocoding/v5/mapbox.places/%s.json?access_token=%s</string>
+    <string name="weather_api_format_string_query">https://api.weatherapi.com/v1/forecast.json?q=%f,%f&amp;key=%s&amp;days=%d</string>
+    <string name="coordination_error">An error, occurred, cannot retrieve coordination results at the moment</string>
+    <string name="weather_partial_data_error">An error occurred, cannot retrieve some weather info at the moment</string>
+    <string name="weather_total_data_error">An error occurred, cannot retrieve any weather info at the moment</string>
+    <string name="no_connection_error">No internet, please check your connection</string>
+    <string name="coordinates_format_string">coordinates is: %.1f, %.1f</string>
+</resources>
