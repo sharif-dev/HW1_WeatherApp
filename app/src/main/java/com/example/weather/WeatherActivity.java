@@ -49,8 +49,8 @@ public class WeatherActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private Context context;
     private boolean networkAvailable;
-    private final String saveFilePath = "saved.txt";
-    private final String imageDirectory = "imageDir";
+    private final String saveFilePath;
+    private final String imageDirectory;
 
     Handler handler = new Handler(Looper.getMainLooper());
 
@@ -62,6 +62,8 @@ public class WeatherActivity extends AppCompatActivity {
         weatherApiFormatStringQuery = getResources().getString(R.string.weather_api_format_string_query);
         weatherApiToken = getResources().getString(R.string.weather_api_token);
         numberOfDays = getResources().getInteger(R.integer.number_of_days);
+        saveFilePath = getResources().getInteger(R.string.save_path);
+        imageDirectory = getResources().getInteger(R.string.image_path);
         progressBar = findViewById(R.id.get_weather_progress_bar);
         Intent intent = getIntent();
         networkAvailable = intent.getBooleanExtra("network_available", false);
