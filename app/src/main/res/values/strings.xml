@@ -11,4 +11,6 @@
     <string name="weather_total_data_error">An error occurred, cannot retrieve any weather info at the moment</string>
     <string name="no_connection_error">No internet, please check your connection</string>
     <string name="coordinates_format_string">coordinates is: %.1f, %.1f</string>
+    <string name="save_path">saved.txt</string>
+    <string name="image_path">imageDir</string>
 </resources>
